@@ -1,0 +1,38 @@
+html, body, .App, #root{
+    height: 100%;
+}
+.registerWraper{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 100px;
+    height: 100%;
+}
+.registerForm{
+    border-radius: 15px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #c6d4d2;
+    font-weight: bold;
+}
+.registerForm .element{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-top: 10px;
+    background-color: #c6d4d2;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    color: #3a4c49;
+    border: 3px solid #4f6965d3;
+}

@@ -1,0 +1,17 @@
+html, body, .App, #root{
+  min-height: 100%;
+  background-color:  #4f6965;
+  background-image: url(food.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.App {
+  text-align: center;
+  background-color:  #4f6965;
+  margin: 0;
+  padding: 0;
+  min-width:100%;
+}

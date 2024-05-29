@@ -1,0 +1,112 @@
+.recipes{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 80px 60px;
+    list-style-type: none;
+}
+
+ul li {
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: #98bdb7;
+    opacity: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+ul li:hover{
+    transform: translateY(-10px);
+}
+
+ul li .image-container {
+    height: 150px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+ul li .image-container img {
+    height: 100%; 
+    width: auto; 
+    max-width: 100%; 
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+ul li .content {
+    padding: 20px;
+}
+
+ul li .save-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin-top: 18px;
+}
+
+
+.delete, .edit {
+    width: 30px;
+    height: 30px;
+    color: #4f6965;
+}
+.delete:hover, .edit:hover{
+    color: white;
+}
+.time {
+    display: inline-flex;
+    align-items: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.edit-page{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.confirm-button{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    color: #4f6965;
+}
+.confirm-button:hover{
+    color: white;
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column; /* Stack ingredients vertically */
+    align-items: center; /* Center ingredients horizontally */
+    margin-bottom: 10px;
+}
+
+.ingredients ol {
+    text-align: center;
+  }
+
+  .link-style{
+    text-decoration: none;
+    color: black;
+  }

@@ -1,0 +1,63 @@
+.wraper{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px;
+}
+.create-recipe-form{
+    border-radius: 15px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #c6d4d2;
+}
+.create-recipe-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.create-recipe-form form select{
+    margin: 15px;
+    background-color: #c6d4d2;
+    border-radius: 5px;
+    padding: 5px;
+    color: #3a4c49;
+    border: 3px solid #4f6965d3;
+}
+.create-recipe-form form input{
+    margin: 15px;
+}
+.ingredients{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: #a1e4d9;
+    border: none;
+    border-radius: 10px;
+    color: #5b6a68;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+textarea{
+    margin-top: 10px;
+    background-color: #c6d4d2;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    color: #3a4c49;
+    border: 3px solid #4f6965d3;
+}

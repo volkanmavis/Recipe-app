@@ -1,0 +1,34 @@
+.navbar {
+  box-sizing: border-box;
+  min-height: 60px;
+  background-color: #a1e4d9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.links1, .links2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.links1{
+  width: 500px;
+}
+.links2{
+  width: 300px;
+}
+#recipely{
+  margin-left: 20px;
+}
+
+.links1 .link, .links2 .link {
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: #4f6965;
+  color: #a1e4d9;
+}

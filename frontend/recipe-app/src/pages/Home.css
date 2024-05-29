@@ -1,0 +1,51 @@
+html, body, .App, #root{
+    min-height: 100%;
+    
+}
+
+ul li button{
+    background-color: #98bdb7;
+    border: none;
+    border-radius: 10px;
+    color: #5b6a68;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.filter-button{
+    font-size: 1.2rem;
+    padding: 8px 15px;
+    margin: 4px 3px;
+}
+
+.filter-button:hover{
+    background-color: #77a19b;
+    color: white;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.time{
+    display: inline-flex;
+    align-items: center;
+}
+.add-button{
+    width: 40px;
+    height: 40px;
+}
+.add-button:hover{
+    color: white;
+}
+
+.home-instructions, .ingredients{
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px;
+}

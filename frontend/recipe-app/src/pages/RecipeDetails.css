@@ -1,0 +1,38 @@
+#recipeName{
+    align-self: center;
+}
+.recipe-details{
+    display: flex;
+    padding: 10px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color: red; */
+    gap: 50px;
+    
+}
+
+
+.ingredients-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding-inline-start: 0px;
+
+}
+
+.recipe-elements{
+background-color: #98bdb7;
+padding: 5px;
+}
+
+.ingredients-list{
+    padding-inline-start: 0px;
+    list-style: decimal;
+    background-color: #98bdb7;
+    padding: 5px;
+}
